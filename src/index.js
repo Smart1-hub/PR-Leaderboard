@@ -1,5 +1,5 @@
 import './style.css';
-import { addGameScores, displayScoreList } from './api';
+import { addGameScores, displayScoreList } from './api.js';
 
 displayScoreList();
 

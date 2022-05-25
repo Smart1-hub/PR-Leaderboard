@@ -18,7 +18,7 @@ This project is a JavaScript project for the Leaderboard list app, using webpack
 
 ## Live Demo
 
-[Live Demo](/dist)
+[Live Demo](https://smart1-hub.github.io/PR-Leaderboard/dist)
 
 ## Getting Started
 

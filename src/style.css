@@ -1,0 +1,82 @@
+body {
+  margin-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.header {
+  padding: 1% 14%;
+}
+
+.recent-score-section {
+  width: 35%;
+}
+
+.recent-score {
+  display: flex;
+  gap: 15px;
+}
+
+#refresh {
+  height: 25px;
+  width: 80px;
+  margin-top: 20px;
+}
+
+.list-score {
+  border: 2px solid #000;
+}
+
+.list-score ul {
+  padding: 0;
+  margin: 0;
+}
+
+.list-score ul li {
+  list-style: none;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-container {
+  display: flex;
+  gap: 50px;
+  margin-left: 40px;
+}
+
+input {
+  padding: 7px 5px;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+.form #submit {
+  display: inline-block;
+  position: relative;
+  text-align: right;
+  width: fit-content;
+  left: 70.1%;
+  padding: 5px;
+  border: 1px solid black;
+}

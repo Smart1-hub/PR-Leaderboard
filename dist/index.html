@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard Project</title>
+<script defer src="main.js"></script></head>
+<body>
+  <header class="tittle">
+    <h1>Leaderboard</h1>
+  </header>
+  <div class="main-container">
+    <section class="recent-score-section">
+      <div class="recent-score">
+        <h2>Recent score</h2>
+        <button type="button" id="refresh">Refresh</button>
+      </div>
+      <div class="list-score">
+        <ul>
+          <li> name: 100</li>
+          <li> name: 20</li>
+          <li> name: 50</li>
+          <li> name: 78</li>
+          <li> name: 125</li>
+          <li> name: 77</li>
+          <li> name: 42</li>
+        </ul>
+      </div>
+    </section>
+    <section class="add-score">
+      <h2 class="recent-score-header">Add your score</h2>
+      <form action="#" class="form">
+        <input type="text" class="user-name" id="name" placeholder="Your name" required>
+        <input type="number" class="user-score" id="score" placeholder="Your score" required>
+        <button type="submit" id="submit"> Submit</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>

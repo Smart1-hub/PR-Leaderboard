@@ -32,6 +32,20 @@ To get a local copy up and running:
 
 **``you@your-Pc-name:~$ cd <folder>``**
 
+~~~
+- install project dependencies
+```
+npm install
+```
+- build project
+```
+npm run build
+```
+- start project
+```
+npm start
+```
+
 ## Author
 
 👤 **Ademola Adebayo**

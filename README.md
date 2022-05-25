@@ -20,18 +20,14 @@ This project is a JavaScript project for the Leaderboard list app, using webpack
 
 [Live Demo](https://smart1-hub.github.io/PR-Leaderboard/dist)
 
-## Getting Started
-
-To get a local copy up and running:
-
-1. Clone this repository or download the Zip folder:
-
-**``https://github.com/Smart1-hub``**
-
-1. Navigate to the location of the folder in your machine:
-
-**``you@your-Pc-name:~$ cd <folder>``**
-
+### Setup
+~~~ 
+git clone git@github.com:smart1-hub/PR-Leaderboard.git
+cd PR-Leaderboard
+~~~
+- Open a index.html file with code editor of your choice and/or a browser.
+~~~
+Open the project using a live server extension that can be found in your code editor or by using your browser
 ~~~
 - install project dependencies
 ```
@@ -45,6 +41,13 @@ npm run build
 ```
 npm start
 ```
+- You can also check out this API documentation [link](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
+
+## Environment Prerequisites
+
+Web Browser
+
+Code editor: Vscode or any other code editor
 
 ## Author
 
